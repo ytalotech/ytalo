@@ -2,6 +2,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Localization from "./components/Localization";
 import Menu from "./components/Menu";
+import Partners from "./components/Partners";
 import Services from "./components/Services";
 
 import './styles/main.css';
@@ -11,8 +12,19 @@ function App() {
     <div className="App">
       <Menu />
       {/* <Services /> */}
-      <Contact />
-      {/* <Localization /> */}
+
+      <section id="contact">
+        <Contact />
+      </section>
+
+      <section id="localization">
+        <Localization />
+      </section>
+
+      <section id="partners">
+        <Partners />
+      </section>
+
       <Footer />
     </div>
   )

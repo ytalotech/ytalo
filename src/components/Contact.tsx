@@ -1,12 +1,12 @@
 import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
 
 const features = [
-    // {
-    //     name: 'Telefone',
-    //     description:
-    //         '85 999404256',
-    //     icon: GlobeAltIcon,
-    // },
+    {
+        name: 'Telefone',
+        description:
+            '(85) 98238-0314',
+        icon: GlobeAltIcon,
+    },
     {
         name: 'Telegram',
         description:
@@ -16,7 +16,7 @@ const features = [
     {
         name: 'Email',
         description:
-            'lopessoftec@gmail.com',
+            'comercial@ytalo.dev',
         icon: ChatBubbleBottomCenterTextIcon,
     },
 ]

@@ -6,11 +6,21 @@ const navigation = [
     { name: 'Home', href: '#' },
     { name: 'Serviços', href: '#' },
     { name: 'Loja', href: '#' },
-    { name: 'Contato', href: '#' },
-    { name: 'Localização', href: '#' },
+    { name: 'Contato', href: '#contact' },
+    { name: 'Localização', href: '#localization' },
+    { name: 'Parceiros', href: '#partners' },
 ]
 
+import logo from '../assets/logo.jpeg';
+
 export default function Menu() {
+
+    const imageStyle = {
+        width: '100px', // Defina a largura desejada da imagem
+        // height: '200px', // Defina a altura desejada da imagem
+        borderRadius: '10%', // Isso arredondará a imagem em um círculo
+      };
+
     return (
         <div className="relative overflow-hidden bg-white">
             <div className="mx-auto max-w-7xl">
@@ -34,8 +44,10 @@ export default function Menu() {
                                             <span className="sr-only">Your Company</span>
                                             <img
                                                 alt="Your Company"
-                                                className="h-8 w-auto sm:h-10"
-                                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                                className="h-8 w-20 sm:h-10"
+                                                // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                                src={logo}
+                                                style={imageStyle}
                                             />
                                         </a>
                                         <div className="-mr-2 flex items-center md:hidden">
@@ -74,8 +86,10 @@ export default function Menu() {
                                         <div>
                                             <img
                                                 className="h-8 w-auto"
-                                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                                // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                                                 alt=""
+                                                src={logo}
+                                                style={imageStyle}
                                             />
                                         </div>
                                         <div className="-mr-2">
