@@ -4,11 +4,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'Home', href: '#' },
-    { name: 'Serviços', href: '#' },
-    { name: 'Loja', href: '#' },
+    // { name: 'Serviços', href: '#' },
+    // { name: 'Loja', href: '#' },
     { name: 'Contato', href: '#contact' },
     { name: 'Localização', href: '#localization' },
-    { name: 'Parceiros', href: '#partners' },
+    { name: 'Parceiros', href: 'https://ytalotech.github.io/agronegocio/' },
 ]
 
 import logo from '../assets/logo.jpeg';

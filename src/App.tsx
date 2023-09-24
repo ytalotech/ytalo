@@ -2,6 +2,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Localization from "./components/Localization";
 import Menu from "./components/Menu";
+import ModalPartners from "./components/ModalPartners";
 import Partners from "./components/Partners";
 import Services from "./components/Services";
 
@@ -21,9 +22,11 @@ function App() {
         <Localization />
       </section>
 
-      <section id="partners">
+      {/* <section id="partners">
         <Partners />
-      </section>
+      </section> */}
+
+      <ModalPartners />
 
       <Footer />
     </div>

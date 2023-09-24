@@ -11,6 +11,8 @@ npm i gh-pages --save-dev
 # É só rodar o comando a baixo que será enviado para o github
 npm run deploy
 
+-> Depois usar o comando a cima deploy, precisamos novamente definir o dominio no repositorio git, aqui vai ser ytalo.dev 
+
 # Configurando no github
 -> Iremos no projeto
 -> Em settings
